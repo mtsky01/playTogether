@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		442F14C91CC8B834004CE917 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442F14C81CC8B834004CE917 /* SegmentView.swift */; };
+		442F14CE1CC8C9D3004CE917 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442F14CD1CC8C9D3004CE917 /* config.swift */; };
+		442F14D31CC8CE06004CE917 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 442F14D21CC8CE06004CE917 /* UIColor+Hex.m */; };
 		9E216BB41CC478DB00874A7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E216BB31CC478DB00874A7A /* AppDelegate.swift */; };
 		9E216BB61CC478DB00874A7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E216BB51CC478DB00874A7A /* ViewController.swift */; };
 		9E216BB91CC478DB00874A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E216BB71CC478DB00874A7A /* Main.storyboard */; };
@@ -20,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		442F14C81CC8B834004CE917 /* SegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SegmentView.swift; path = "../../../Downloads/Swift-BanTang-master/BeautifulDay/SegmentView.swift"; sourceTree = "<group>"; };
+		442F14CD1CC8C9D3004CE917 /* config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		442F14D11CC8CE06004CE917 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		442F14D21CC8CE06004CE917 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		9E216BB01CC478DB00874A7A /* playTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E216BB31CC478DB00874A7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E216BB51CC478DB00874A7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +52,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		442F14CA1CC8C96D004CE917 /* SupportDoc */ = {
+			isa = PBXGroup;
+			children = (
+				442F14CB1CC8C986004CE917 /* 公共 */,
+			);
+			name = SupportDoc;
+			sourceTree = "<group>";
+		};
+		442F14CB1CC8C986004CE917 /* 公共 */ = {
+			isa = PBXGroup;
+			children = (
+				442F14CF1CC8CDF1004CE917 /* CateGory */,
+				442F14CC1CC8C9BA004CE917 /* 公共配置 */,
+			);
+			name = "公共";
+			sourceTree = "<group>";
+		};
+		442F14CC1CC8C9BA004CE917 /* 公共配置 */ = {
+			isa = PBXGroup;
+			children = (
+				442F14CD1CC8C9D3004CE917 /* config.swift */,
+			);
+			name = "公共配置";
+			sourceTree = "<group>";
+		};
+		442F14CF1CC8CDF1004CE917 /* CateGory */ = {
+			isa = PBXGroup;
+			children = (
+				442F14D11CC8CE06004CE917 /* UIColor+Hex.h */,
+				442F14D21CC8CE06004CE917 /* UIColor+Hex.m */,
+			);
+			name = CateGory;
+			sourceTree = "<group>";
+		};
 		9E216BA71CC478DB00874A7A = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +112,7 @@
 				9E216BCA1CC5115600874A7A /* 个人中心 */,
 				9E216BC91CC5114300874A7A /* 发布 */,
 				9E216BC81CC5112B00874A7A /* 消息 */,
+				442F14CA1CC8C96D004CE917 /* SupportDoc */,
 				9E216BB71CC478DB00874A7A /* Main.storyboard */,
 				9E216BBA1CC478DB00874A7A /* Assets.xcassets */,
 				9E216BBC1CC478DB00874A7A /* LaunchScreen.storyboard */,
@@ -82,6 +124,7 @@
 		9E216BC51CC48A2100874A7A /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				442F14C81CC8B834004CE917 /* SegmentView.swift */,
 				9E216BC61CC48A7A00874A7A /* HomeViewController.swift */,
 			);
 			name = "首页";
@@ -191,10 +234,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E216BB61CC478DB00874A7A /* ViewController.swift in Sources */,
+				442F14D31CC8CE06004CE917 /* UIColor+Hex.m in Sources */,
 				9E216BD31CC5176F00874A7A /* ReleaseViewController.swift in Sources */,
+				442F14C91CC8B834004CE917 /* SegmentView.swift in Sources */,
 				9E216BCD1CC5145200874A7A /* DiscoverViewController.swift in Sources */,
 				9E216BB41CC478DB00874A7A /* AppDelegate.swift in Sources */,
 				9E216BC71CC48A7A00874A7A /* HomeViewController.swift in Sources */,
+				442F14CE1CC8C9D3004CE917 /* config.swift in Sources */,
 				9E216BD11CC5172B00874A7A /* PersonCenterViewController.swift in Sources */,
 				9E216BCF1CC516C200874A7A /* MessageCenterViewController.swift in Sources */,
 			);
@@ -309,10 +355,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = playTogether/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mt.swift.playTogether;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "playTogether/playTogether-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -320,10 +369,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = playTogether/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mt.swift.playTogether;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "playTogether/playTogether-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -346,6 +397,7 @@
 				9E216BC41CC478DB00874A7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
