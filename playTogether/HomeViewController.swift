@@ -8,6 +8,7 @@
 
 import UIKit
 
+<<<<<<< Updated upstream
 enum TableViewMode{
     /// 半糖精选
     case BanTangGoodSelectMode
@@ -20,6 +21,29 @@ class HomeViewController: UIViewController ,SegmentViewDelegate {
     private var tableViewMode = TableViewMode.BanTangGoodSelectMode
     
     private var segmentView = SegmentView()
+=======
+class HomeViewController: UIViewController {
+    /// 顶部自定义导航条
+    var customBar = UIView()
+    ///顶部轮播视图
+    var bannerView = BannerView()
+    /// 标签
+    var titleView = TitleView()
+    /// 轮播视图 ，标签视图 的容器
+    var headView = UIView()
+    ///tableview 容器
+    var showScrollView:UIScrollView!
+    /// tableview容器
+    var showCollectionView:UICollectionView!
+    
+    
+    
+    
+    
+    
+    
+    
+>>>>>>> Stashed changes
     override func viewDidLoad() {
         super.viewDidLoad()
         buildSegmentView()

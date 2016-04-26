@@ -20,6 +20,8 @@
 		9E216BCF1CC516C200874A7A /* MessageCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E216BCE1CC516C200874A7A /* MessageCenterViewController.swift */; };
 		9E216BD11CC5172B00874A7A /* PersonCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E216BD01CC5172B00874A7A /* PersonCenterViewController.swift */; };
 		9E216BD31CC5176F00874A7A /* ReleaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E216BD21CC5176F00874A7A /* ReleaseViewController.swift */; };
+		9E216BD61CCD034200874A7A /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E216BD51CCD034200874A7A /* TitleView.swift */; };
+		9E216BD81CCD04B000874A7A /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E216BD71CCD04B000874A7A /* BannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		9E216BCE1CC516C200874A7A /* MessageCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCenterViewController.swift; sourceTree = "<group>"; };
 		9E216BD01CC5172B00874A7A /* PersonCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCenterViewController.swift; sourceTree = "<group>"; };
 		9E216BD21CC5176F00874A7A /* ReleaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReleaseViewController.swift; sourceTree = "<group>"; };
+		9E216BD51CCD034200874A7A /* TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		9E216BD71CCD04B000874A7A /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,7 @@
 			children = (
 				442F14C81CC8B834004CE917 /* SegmentView.swift */,
 				9E216BC61CC48A7A00874A7A /* HomeViewController.swift */,
+				9E216BD41CCD018600874A7A /* View */,
 			);
 			name = "首页";
 			sourceTree = "<group>";
@@ -160,6 +165,15 @@
 				9E216BCC1CC5145200874A7A /* DiscoverViewController.swift */,
 			);
 			name = "发现";
+			sourceTree = "<group>";
+		};
+		9E216BD41CCD018600874A7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E216BD51CCD034200874A7A /* TitleView.swift */,
+				9E216BD71CCD04B000874A7A /* BannerView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +254,14 @@
 				9E216BCD1CC5145200874A7A /* DiscoverViewController.swift in Sources */,
 				9E216BB41CC478DB00874A7A /* AppDelegate.swift in Sources */,
 				9E216BC71CC48A7A00874A7A /* HomeViewController.swift in Sources */,
+<<<<<<< Updated upstream
 				442F14CE1CC8C9D3004CE917 /* config.swift in Sources */,
+=======
+				9E216BD81CCD04B000874A7A /* BannerView.swift in Sources */,
+>>>>>>> Stashed changes
 				9E216BD11CC5172B00874A7A /* PersonCenterViewController.swift in Sources */,
 				9E216BCF1CC516C200874A7A /* MessageCenterViewController.swift in Sources */,
+				9E216BD61CCD034200874A7A /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
